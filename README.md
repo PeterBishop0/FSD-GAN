@@ -1,5 +1,5 @@
 # The detailed network structures of FSD-GAN
-<img src="./table.png"  width="300" />
+<img src="./table.png"  width="400" />
 
 Among the tables mentioned above, the input of the encoder network is a tensor of $3\times64\times64$ (i.e., RGB image with a height and width of 64 pixels, the same is true for the following), the input of the decoder network is a tensor of $512\times8\times8$, the input of the discriminator network is a tensor of $3\times64\times64$, and the input of the fingerprint generator is a tensor of $3\times64\times64$. 
 
